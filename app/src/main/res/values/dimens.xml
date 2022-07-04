@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="mainMargin">8dp</dimen>
+    <dimen name="smallMargin">4dp</dimen>
+    <dimen name="pointerSize">200px</dimen>
+</resources>

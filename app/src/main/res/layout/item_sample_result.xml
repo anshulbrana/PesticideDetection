@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.NoActionBar">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/materialBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/materialBlack" />
+
+        <LinearLayout
+            android:id="@+id/sampleBacgroundLL"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:gravity="center"
+            android:background="@color/materialRed"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sampleIndex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ssspbold"
+                android:text="REd"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/materialWhite"
+                android:textSize="@dimen/textSize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/materialBlack" />
+
+        <TextView
+            android:id="@+id/colorOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:fontFamily="@font/ssspbold"
+            android:padding="@dimen/mainMargin"
+            android:text="255"
+            android:textAlignment="center"
+            android:textColor="@color/materialBlack"
+            android:textSize="@dimen/textSize" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/materialBlack" />
+
+        <TextView
+            android:id="@+id/colorTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:fontFamily="@font/ssspbold"
+            android:padding="@dimen/mainMargin"
+            android:text="255"
+            android:textAlignment="center"
+            android:textColor="@color/materialBlack"
+            android:textSize="@dimen/textSize" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/materialBlack" />
+
+        <Button
+            android:id="@+id/viewResultButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".25"
+            android:background="@color/materialWhite"
+            android:fontFamily="@font/ssspbold"
+            android:text="View Result  >>"
+            android:textColor="@color/materialRed" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/materialBlack" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/materialBlack" />
+
+</LinearLayout>
+
+

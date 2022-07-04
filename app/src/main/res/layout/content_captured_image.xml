@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainRL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.CaputedIMagePackage.CapturedImageActivity">
+
+
+    <LinearLayout
+        android:id="@+id/dividedLL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="@android:color/darker_gray"
+            android:gravity="center">
+
+            <FrameLayout
+                android:id="@+id/firstHalfImageFrame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:foreground="@android:color/transparent">
+
+                <ImageView
+                    android:id="@+id/firstHalfImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/transparentWhite"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="Control"
+                android:textSize="28dp" />
+
+            <ImageView
+            android:id="@+id/firstHalfPointer"
+            android:layout_width="@dimen/pointerSize"
+            android:layout_height="@dimen/pointerSize"
+            android:src="@drawable/circle"
+            android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="@android:color/darker_gray"
+            android:gravity="center">
+
+            <FrameLayout
+                android:id="@+id/secondHalfImageFrame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:foreground="@android:color/transparent">
+
+                <ImageView
+                    android:id="@+id/secondHalfImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+
+
+                    />
+            </FrameLayout>
+            <TextView
+                android:layout_width="match_parent"
+                 android:background="@color/transparentWhite"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="Sample"
+                android:textSize="28dp" />
+
+            <ImageView
+            android:id="@+id/secondHalfPOinter"
+            android:layout_width="@dimen/pointerSize"
+            android:layout_height="@dimen/pointerSize"
+            android:src="@drawable/circle"
+            android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

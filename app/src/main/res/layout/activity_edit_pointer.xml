@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activites.EditPointerActivity"
+    android:theme="@style/AppTheme.NoActionBar">
+
+
+    <include layout="@layout/content_edit_pointer" />
+
+
+    <LinearLayout
+        android:id="@+id/doneLL"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@drawable/circular_linear_layout"
+        android:elevation="2dp"
+        android:gravity="bottom"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_done_all_black_24dp" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

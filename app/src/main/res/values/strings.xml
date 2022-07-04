@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Color Spot</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="Edible">The amount of fertilizer used in sample is less then the control.
+        Hence, it is healthy to eat.</string>
+    <string name="washEdible">The amount of fertilizer used in sample is greater then the amount used in control.
+        Hence, it should be washed properly before eating.</string>
+    <string name="waitWashEdible">The amount of fertilizer used in sample is in excess amount then fertilizer used in control.
+        Hence, it should be kept in open air for 2/3 days and washed properly before eating.</string>
+    <string name="notEdible">The amount of fertilizer used in sample is in extreme quantity.
+        Hence, it is not healthy to eat.</string>
+</resources>
